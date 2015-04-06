@@ -5,7 +5,7 @@ Note: The lower_case folder contains all the same snippets, but with a lower-cas
 
 # Installation
 
-CD into your Sublime Text - Packages - User folder and do 
+CD into your Sublime Text - Packages - User folder and do    
 `git clone https://github.com/vonwhoopass/SublimeMySQLSnippets.git`
 
 Thats all.
