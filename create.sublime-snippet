@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+CREATE TABLE ${1:tablename} (
+    ${2:column} ${3:datatype},
+    ${4:column} ${5:datatype},
+    ${6:column} ${7:datatype}
+    INDEX (${8:index})
+);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>CREATE</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.sql</scope>
+</snippet>

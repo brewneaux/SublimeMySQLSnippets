@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+INSERT INTO ${1:table}
+(
+    ${2:column1},
+    ${3:column2},
+    ${4:column3}
+)
+SELECT
+    ${5:columnselect},
+    ${6:columnselect},
+    ${7:columnselect}
+FROM 
+    ${8:table} AS ${9:alias}
+    ${10:JOIN} ${11:other_table} AS ${12:alias}
+        ON ${13:condition1} = ${14:condition2}
+WHERE
+    ${15:where}
+;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>INSERT</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.sql</scope>
+</snippet>
